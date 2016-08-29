@@ -3,7 +3,7 @@
   "name": "RateMyBison",
   "version": "1.0.0",
   "author": "Taylor Milliman",
-  "description": "Displays RateMyProfessor ratings on no8am.com.",
+  "description": "Displays RateMyProfessor ratings on no8.am.",
   "permissions":[
     "http://www.ratemyprofessors.com/*",
     "activeTab"
@@ -16,7 +16,7 @@
 
   "content_scripts":[
     {
-      "matches": ["https://no8.am/bucknell"],
+      "matches": ["https://no8.am/bucknell*"],
       "css":["styles.css"],
       "js":["main.js"]
       }
